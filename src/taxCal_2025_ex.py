@@ -1,3 +1,5 @@
+import numpy as np
+
 def calculate_cpp(income):
     YMPE = 71300
     YAMPE = 81200
@@ -103,3 +105,22 @@ for salary in [100000, 178000, 200000]:
     result = calculate_total_tax(salary)
     for k, v in result.items():
         print(f"{k:25s}: ${v:,.2f}")
+
+matrix = [
+    [1, 2],
+    [3, 4],
+    [5, 6]
+]
+
+# Print the matrix
+print(len(matrix))
+print(matrix[0][1])  # Outputs 2 (row 1, column 2 in MATLAB)
+print(matrix[1][0])  # Outputs 3 (row 2, column 1 in MATLAB)
+
+
+matrix1 = np.array([[1, 2],
+                   [3, 4]])
+
+
+print(matrix1.shape)  # (2, 2) → (rows, columns)
+print(matrix1.size)   # 4     → total elements
