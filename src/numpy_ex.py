@@ -49,3 +49,16 @@ print(matrix)
 np.array([1, 2 ])
 # 2 - dimensional matrix
 np.array([[1, 2 ]])
+
+
+
+
+# matrix mutliplication 
+A = np.array([ [1,2],[3,4] ])
+B = np.array([ [1,0],[1,1] ])
+
+C = A * B                   # element x element 
+C_matrix  = np.dot(A,B)     # matrix calculation
+print(C)                
+print(C_matrix)
+
