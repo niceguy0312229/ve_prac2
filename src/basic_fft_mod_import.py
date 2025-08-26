@@ -20,7 +20,7 @@ x = np.linspace(0.0, N*Ts, N, endpoint=False)
 f = np.arange(-Fs/2, Fs/2, Fs/N)
 # Create a signal with two frequencies
 y = np.exp(1j*500.0e6 * 2.0*np.pi*x) + 0.5*np.exp(1j*800.0e6 * 2.0*np.pi*x)
-win = signal.windows.flattop(N)
+win = signal.windows.flattop(N) 
 y_win = y * win
 figure(1)
 plot(np.real(y_win))
