@@ -9,10 +9,10 @@ df = pd.DataFrame(np.random.randn(10,5))  # showing table, look tidy!!
 #df = np.random.randn(10,5) #showing just array 
 
 # just head !!!
-print(df.head())   
+print(f"Only head portion(5 lines)........ \n{df.head()}")   
 
 # show full
-print(df)
+print(f"Shows full........\n{df}")
 
 #----------------
 # ex-2)
