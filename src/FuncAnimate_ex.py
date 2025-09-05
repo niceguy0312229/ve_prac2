@@ -17,4 +17,3 @@ anim = FuncAnimation(fig, update, frames=100, interval=50)
 
 plt.show()
 
-help(list)
