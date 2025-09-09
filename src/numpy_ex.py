@@ -1,5 +1,10 @@
 import numpy as np
 
+
+list_len = [1, 2, 3, 4]
+print(f"To check the size of the list, use len() : {len(list_len)}") 
+#print(list_len.shape)
+
 matrix1 = np.array([[1, 2],
                    [3, 4]])
 
